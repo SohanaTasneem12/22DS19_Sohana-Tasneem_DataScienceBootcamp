@@ -1,0 +1,12 @@
+a,b,c = map(int,input().split())
+sum = a+b+c
+x = max(a,b,c)
+z = min(a,b,c)
+y = sum - (x+z)
+print(z)
+print(y)
+print(x)
+print()
+print(a)
+print(b)
+print(c)
